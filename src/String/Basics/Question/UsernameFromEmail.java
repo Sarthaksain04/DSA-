@@ -1,9 +1,8 @@
 package String.Basics.Question;
 
-import javax.sound.midi.Soundbank;
 import java.util.Scanner;
 
-public class Q3 {
+public class UsernameFromEmail {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

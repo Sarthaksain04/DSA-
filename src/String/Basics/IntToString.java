@@ -1,6 +1,6 @@
 package String.Basics;
 
-public class InttoStr {
+public class IntToString {
     public static void main(String args[]) {
         int number = 123;
         String str = Integer.toString(number);
