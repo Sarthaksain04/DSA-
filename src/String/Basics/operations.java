@@ -18,5 +18,6 @@ public class operations {
         System.out.println(name.lastIndexOf('r')); //	Last index of char
         System.out.println(name.trim()); //	Removes leading and trailing spaces
         System.out.println(name.replace("S" , "R")); //Replaces a with b
+
     }
 }

@@ -12,7 +12,7 @@ public class Basicex3 {
         System.out.println("Window 1 sum: " + sum);
         int maxSum = sum ;
 
-        for (int i = 1; i < arr.length - k ; i++) {
+        for (int i = 1; i <= arr.length - k ; i++) {
             sum = sum - arr[i - 1] + arr[i + k -1];
             System.out.println("Window " + (i + 1)+ " sum: " + sum);
 
