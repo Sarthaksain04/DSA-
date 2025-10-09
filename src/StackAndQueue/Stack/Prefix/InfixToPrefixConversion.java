@@ -2,7 +2,7 @@ package StackAndQueue.Stack.Prefix;
 
 import java.util.Stack;
 
-public class InfixToPrefix {
+public class InfixToPrefixConversion {
     public static void main(String[] args) {
         String infix = "9-(5+3)*4/6";
         System.out.println(infix);
