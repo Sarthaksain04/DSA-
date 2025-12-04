@@ -1,4 +1,4 @@
-package LinkedList.SinglyLinkedList.Basics;
+package LinkedList.SinglyLinkedList.Questions;
 
 
 class Node2 {

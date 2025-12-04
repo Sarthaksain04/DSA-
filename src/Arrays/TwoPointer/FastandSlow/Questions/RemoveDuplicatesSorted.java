@@ -1,5 +1,7 @@
 package Arrays.TwoPointer.FastandSlow.Questions;
 
+import java.util.Arrays;
+
 public class RemoveDuplicatesSorted {
     public static void main(String[] args) {
 
@@ -11,8 +13,12 @@ public class RemoveDuplicatesSorted {
             if (nums[j] != nums[i]){
                 i++;
                 nums[i] = nums[j];
-            }
 
+            }
+        }
+        int num = i+1;
+        for (int k = 0; k < num; k++) {
+            System.out.print(nums[k] + " ");
         }
     }
 }

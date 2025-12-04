@@ -16,5 +16,9 @@ public class Obj2 {
         s.name = "Sarthak";
         s.rollNo = 101;
         s.display();
+        Student s1 = new Student();  // object created
+        s1.name = "Samriddhi";
+        s1.rollNo = 102;
+        s1.display();
     }
 }

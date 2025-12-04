@@ -2,6 +2,7 @@ package OOPs.ClassandObject.Class;
 
 class Welcome {
     Welcome() {
+
         System.out.println("Welcome to Java");
     }
 }

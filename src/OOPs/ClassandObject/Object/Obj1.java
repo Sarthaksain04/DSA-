@@ -4,6 +4,7 @@ class Dog{
     int leg;
 
     Dog(){
+
         leg = 4 ;
     }
     void  Display(){

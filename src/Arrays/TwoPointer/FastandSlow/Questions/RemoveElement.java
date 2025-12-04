@@ -9,6 +9,7 @@ public class RemoveElement {
             if (nums[i] != val){
                 nums[index++] = nums[i];
             }
+
         }
         for (int i = 0; i < index; i++)
             System.out.print(nums[i] + " ");

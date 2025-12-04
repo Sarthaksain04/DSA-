@@ -5,21 +5,16 @@ class Book{
     String Author ;
     String  Price ;
 
-    Book(){
-        Title = "Geeta";
-        Author = "Shree Krishna";
-        Price = "Priceless";
-    }
-    void Display(){
-        System.out.println(Title);
-        System.out.println(Author);
-        System.out.println(Price);
-    }
 }
 
 public class Class2 {
     public static void main(String[] args) {
         Book b1 = new Book();
-        b1.Display();
+        b1.Title = "Geeta";
+        b1.Author = "Shree Krishna";
+        b1.Price = "Priceless";
+        System.out.println(b1.Title);
+        System.out.println(b1.Author);
+        System.out.println(b1.Price);
     }
 }
