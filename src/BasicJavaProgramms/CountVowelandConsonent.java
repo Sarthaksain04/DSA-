@@ -17,4 +17,4 @@ public class CountVowelandConsonent {
         System.out.println(vowels);
         System.out.println(Consonents);
     }
-}
+ }

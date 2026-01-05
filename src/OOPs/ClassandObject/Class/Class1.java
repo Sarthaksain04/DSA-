@@ -16,4 +16,4 @@ public class Class1{
         ClassName c1 = new ClassName();
         c1.display();
     }
-}
+} 

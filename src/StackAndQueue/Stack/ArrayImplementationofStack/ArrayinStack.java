@@ -14,6 +14,7 @@ class Stack{
           }
           arr[idx] = x ;
           idx++;
+
      }
      int peek (){
          if (idx == 0 ){
@@ -34,7 +35,7 @@ class Stack{
           return top;
     }
     void display(){
-        for (int i = 0; i <idx - 1  ; i++) {
+        for (int i = 0; i <idx   ; i++) {
             System.out.println(arr[i]+ " ");
 
         }
@@ -55,6 +56,7 @@ class Stack{
 
     }
 
+
 }
 
 public class ArrayinStack {
@@ -65,6 +67,7 @@ public class ArrayinStack {
         st.push(3);
         st.push(4);
         st.push(5);
+        st.display();
 
     }
 }

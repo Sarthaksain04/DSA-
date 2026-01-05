@@ -1,6 +1,8 @@
 package CollectionFrameWork.Set.HashSet.Questions;
 
 import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class Q1 {
     public static void main(String[] args) {
@@ -11,5 +13,8 @@ public class Q1 {
         Set.add(4);
         Set.add(5);
         System.out.println(Set);
+
+        
+
     }
 }

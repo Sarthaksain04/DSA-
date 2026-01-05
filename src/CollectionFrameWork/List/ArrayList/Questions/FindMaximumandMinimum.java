@@ -16,6 +16,7 @@ public class FindMaximumandMinimum {
         list.add(8);
         list.add(9);
 
+
         System.out.println("Maximum:" +  Collections.max(list));
         System.out.println("Minimum :" + Collections.min(list));
 
