@@ -19,6 +19,7 @@ class BankAccount{
       }
       void deposit(double amount){
           balance = balance + amount;
+
       }
       void displayBalance(){
           System.out.println("Account Number: " + accountNumber);

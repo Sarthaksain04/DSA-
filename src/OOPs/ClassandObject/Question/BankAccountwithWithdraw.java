@@ -16,6 +16,7 @@ class BankAccount1{
     BankAccount1(String AccName , double balance){
         this.AccName = AccName;
         this.balance = balance;
+
     }
     void deposit(double amount){
          balance = amount + balance ;
@@ -24,9 +25,14 @@ class BankAccount1{
         if (balance - withdraw >= 500) {
             balance = balance - withdraw;
             System.out.println("Withdrawal successful. Remaining balance: " + balance);
-        } else {
+        }
+
+
+        else{
             System.out.println("Withdrawal denied! Minimum balance of 500 must be maintained.");
         }
+
+
 
     }
 

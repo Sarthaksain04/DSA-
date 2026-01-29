@@ -13,6 +13,7 @@ class Book{
     String title;
     String author;
     double price;
+    String c;
     Book( String title, String author, double price){
         this.title = title;
         this.author = author;
@@ -24,6 +25,9 @@ class Book{
         System.out.println("Price  : ₹" + price);
         System.out.println("----------------------");
     }
+    void car(String K){
+        this.c = K ;
+    }
 }
 
 public class BookDetails {
@@ -33,6 +37,7 @@ public class BookDetails {
 
 b1.displayDetails();
 b2.displayDetails();
+
 
     }
 }
