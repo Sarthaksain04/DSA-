@@ -1,0 +1,23 @@
+package BitManipulation.Question;
+
+//Given two positive integer n and  k, check if the kth index bit of n is set or not.
+// Note: A bit is called set if it is 1.
+//
+//Examples :
+//
+//Input: n = 4, k = 0
+//Output: false
+//Explanation: Binary representation of 4 is 100, in which 0th index bit from LSB is not set. So, return false.
+
+public class KthBitsetotNot {
+    public static void main(String[] args) {
+        int n = 4 ;
+        int k = 2 ;
+        System.out.println(checkKthBit(n , k ));
+
+    }
+    static boolean checkKthBit(int n , int  k){
+           int v = n >> k ;
+           return (v %  2 == 1);
+    }
+}

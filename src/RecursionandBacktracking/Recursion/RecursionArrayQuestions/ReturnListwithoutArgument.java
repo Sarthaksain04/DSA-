@@ -11,6 +11,7 @@ public class ReturnListwithoutArgument {
     }
 
 
+    ///  Return ArrayList Without Argument
     static ArrayList<Integer> findAllIndex2(int[]arr , int target , int index ){
         ArrayList<Integer>list1 = new ArrayList<>();
         if (index == arr.length){
