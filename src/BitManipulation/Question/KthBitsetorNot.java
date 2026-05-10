@@ -9,7 +9,7 @@ package BitManipulation.Question;
 //Output: false
 //Explanation: Binary representation of 4 is 100, in which 0th index bit from LSB is not set. So, return false.
 
-public class KthBitsetotNot {
+public class KthBitsetorNot {
     public static void main(String[] args) {
         int n = 4 ;
         int k = 2 ;

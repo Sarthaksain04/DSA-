@@ -21,7 +21,9 @@ class LL{
               temp = temp.next;
           }
           System.out.println(" null");
+          System.out.println();
       }
+
 }
 
 public class Implement1 {
