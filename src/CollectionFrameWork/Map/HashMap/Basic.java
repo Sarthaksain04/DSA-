@@ -6,7 +6,7 @@ import java.util.Map;
 public class Basic {
 
     public static void HashMapMethods(){
-        Map<String , Integer> mp = new HashMap<>();
+        HashMap<String , Integer> mp = new HashMap<>();
         mp.put("Akash" ,21); // Adding element
         mp.put("Yash" , 16);
         mp.put("Lav" , 17);
